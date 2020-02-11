@@ -1,3 +1,4 @@
 {
-  "This is the key, not the value": "This is the key, not the value"
+  "This is just the key, as it should be": "",
+  "This should be only the key, not the value": "This should be only the key, not the value"
 }

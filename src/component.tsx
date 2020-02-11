@@ -1,7 +1,11 @@
-import {Trans} from 'react-i18next';
+import {Trans, useTranslation} from 'react-i18next';
 
 const Component = () => {
-  return <Trans>This is the key, not the value</Trans>
+  const {t} = useTranslation()
+  return <div>
+      <Trans>This should be only the key, not the value</Trans>
+      {t('This is just the key, as it should be')}
+    </div>
 }
 
 export default Component
